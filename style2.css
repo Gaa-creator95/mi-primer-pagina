@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    background-color: #ccc;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    background-color: #ffedc2;
+}
+
+.container{
+    background-image: url("back-amanecer.jpg");
+    background-position: center;
+    height: 20vh;
+}
+.opaco{
+    background-color: #0008;
+    height: 20vh;
+
+}
+h1{
+    margin: 0;
+    text-align: center;
+    padding: 40px;
+    color: #edc058;
+    animation: bajar 3s forwards;
+}
+.main__container{
+    margin: 5px;
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+.gaa--img{
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+    animation: aparecer 3s forwards;
+    
+}
+p{
+    margin: 5px;
+    text-align: justify;
+}
+.aside__container{
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.video__container{
+    max-width: 100%;
+    aspect-ratio: 16/9;
+}
+video{
+    max-width: 100%;
+}
+
+.footer__container{
+    padding: 20px;
+    background-color: #694a03;
+}
+
+/*------------ANIMACIONES*/
+
+@keyframes aparecer{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
